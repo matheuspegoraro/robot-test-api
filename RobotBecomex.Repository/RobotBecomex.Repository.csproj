@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RobotBecomex.DB\RobotBecomex.DB.csproj" />
+    <ProjectReference Include="..\RobotBecomex.Domain\RobotBecomex.Domain.csproj" />
+    <ProjectReference Include="..\RobotBecomex.Helper\RobotBecomex.Helper.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex", "RobotBecomex\RobotBecomex.csproj", "{D57CF043-3D34-4F0F-B82B-A1984B45C283}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.Domain", "RobotBecomex.Domain\RobotBecomex.Domain.csproj", "{55FEFCFF-F613-4559-846F-C746489C35D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.Service", "RobotBecomex.Services\RobotBecomex.Service.csproj", "{E20D7867-0E62-4B3E-B25C-5A8B2ACAB820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.Repository", "RobotBecomex.Repository\RobotBecomex.Repository.csproj", "{31FAD300-775A-40DF-8BF0-54F871DCF66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.DB", "RobotBecomex.DB\RobotBecomex.DB.csproj", "{4783494A-695D-49C5-825F-E17785D5BA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.Helper", "RobotBecomex.Helper\RobotBecomex.Helper.csproj", "{54839C8F-4464-4D8A-8049-AB52E9515AD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D57CF043-3D34-4F0F-B82B-A1984B45C283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57CF043-3D34-4F0F-B82B-A1984B45C283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57CF043-3D34-4F0F-B82B-A1984B45C283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57CF043-3D34-4F0F-B82B-A1984B45C283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55FEFCFF-F613-4559-846F-C746489C35D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FEFCFF-F613-4559-846F-C746489C35D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FEFCFF-F613-4559-846F-C746489C35D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FEFCFF-F613-4559-846F-C746489C35D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20D7867-0E62-4B3E-B25C-5A8B2ACAB820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20D7867-0E62-4B3E-B25C-5A8B2ACAB820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20D7867-0E62-4B3E-B25C-5A8B2ACAB820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20D7867-0E62-4B3E-B25C-5A8B2ACAB820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FAD300-775A-40DF-8BF0-54F871DCF66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FAD300-775A-40DF-8BF0-54F871DCF66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FAD300-775A-40DF-8BF0-54F871DCF66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FAD300-775A-40DF-8BF0-54F871DCF66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4783494A-695D-49C5-825F-E17785D5BA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4783494A-695D-49C5-825F-E17785D5BA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4783494A-695D-49C5-825F-E17785D5BA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4783494A-695D-49C5-825F-E17785D5BA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE3DDC4E-1E5A-4374-9BA3-817FDFAE35AF}
+	EndGlobalSection
+EndGlobal
