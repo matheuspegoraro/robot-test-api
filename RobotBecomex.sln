@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.Domain", "Robo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.Service", "RobotBecomex.Services\RobotBecomex.Service.csproj", "{E20D7867-0E62-4B3E-B25C-5A8B2ACAB820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.Repository", "RobotBecomex.Repository\RobotBecomex.Repository.csproj", "{31FAD300-775A-40DF-8BF0-54F871DCF66B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.Repository", "RobotBecomex.Repository\RobotBecomex.Repository.csproj", "{31FAD300-775A-40DF-8BF0-54F871DCF66B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.DB", "RobotBecomex.DB\RobotBecomex.DB.csproj", "{4783494A-695D-49C5-825F-E17785D5BA90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.DB", "RobotBecomex.DB\RobotBecomex.DB.csproj", "{4783494A-695D-49C5-825F-E17785D5BA90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.Helper", "RobotBecomex.Helper\RobotBecomex.Helper.csproj", "{54839C8F-4464-4D8A-8049-AB52E9515AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBecomex.Helper", "RobotBecomex.Helper\RobotBecomex.Helper.csproj", "{54839C8F-4464-4D8A-8049-AB52E9515AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotBecomex.Tests", "RobotBecomex.Tests\RobotBecomex.Tests.csproj", "{6A4E825F-61DF-414C-8F42-8E2B58B9BB70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54839C8F-4464-4D8A-8049-AB52E9515AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4E825F-61DF-414C-8F42-8E2B58B9BB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4E825F-61DF-414C-8F42-8E2B58B9BB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4E825F-61DF-414C-8F42-8E2B58B9BB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4E825F-61DF-414C-8F42-8E2B58B9BB70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
